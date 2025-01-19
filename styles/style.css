@@ -61,6 +61,15 @@
     background-repeat: no-repeat;
     padding: 30px;
   }
+  /* company related styles */
+  .company{
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 35px 61px;
+  }
    /* Media query */
    @media screen and (max-width: 576px) {
     header{
@@ -69,7 +78,7 @@
     .nav-container,
     .list-items{
       flex-direction: column;
-      justify-items: center;
+      text-align: center;
     }
     .banner{
       flex-direction: column-reverse;
@@ -77,11 +86,17 @@
     }
     .banner-container{
       margin-top: 14px;
+      width: 450px;
     }
     .img-container{
       height: 440px;
       width: 440px;
-      margin-left: 35px;
+
     }
+  .company{
+    justify-items: center;
+    padding: 0px;
+    margin-left: 10px;
+  }
  
    }
